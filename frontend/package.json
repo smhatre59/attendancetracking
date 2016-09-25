@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "Saurabh Mhatre",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "live-reload": "^1.1.0",
+    "material-ui": "^0.15.4",
+    "moment": "^2.15.1",
+    "mongoose": "^4.6.1",
+    "react": "^15.3.1",
+    "react-big-calendar": "^0.10.3",
+    "react-dom": "^15.3.1",
+    "react-tap-event-plugin": "^1.0.0",
+    "webpack": "^1.13.2"
+  }
+}

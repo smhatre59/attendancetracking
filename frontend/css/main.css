@@ -1,0 +1,57 @@
+.header{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.instructions{
+  width:25%;
+}
+.title{
+  width:50%;
+  text-align: center;
+}
+.report{
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flexdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.presentdiv{
+  width:50%;
+}
+
+.absentdiv{
+  width:50%;
+}
+
+.rowheading{
+  text-align: center;
+  background-color: #ccc;
+  font-size: 20px;
+}
+.row{
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+.tablestyle{
+  background-color: #fff;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-radius: 6px;
+    width: 100%;
+}
